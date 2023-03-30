@@ -1,0 +1,10 @@
+<ul>
+    <ng-container *ngFor = "let item of todo">
+        <!-- <li [ngClass]="{completed: item.isDone, toDo: !item.isDone}">Tarea: {{item.name}}</li> -->
+        <li [ngClass]="item.isDone ? 'completed' : 'toDo'" >Tarea: {{item.name}}</li>
+    </ng-container>
+</ul>
+
+
+<button (click)="cambiarBolean()">Cambiar Bolean</button>
+<button (click)="todoTrue()">Completado</button>

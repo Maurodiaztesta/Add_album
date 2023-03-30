@@ -1,0 +1,10 @@
+
+
+<div class="divNewAlbum">
+    <div class="divNewAlbum__input">
+        <input class="divNewAlbum__input--name" #name placeholder="Album name" type="text"/>
+        <input class="divNewAlbum__input--image" #image placeholder="Image link" type="text"/>
+        <input class="divNewAlbum__input--group" #group placeholder="Group name" type="text"/>
+    </div>
+    <button class="divNewAlbum__button" (click)="sendNewAlbum({name: name.value, image: image.value, group: group.value})">ADD GROUP</button>
+</div>

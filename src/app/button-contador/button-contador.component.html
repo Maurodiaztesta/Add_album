@@ -1,0 +1,10 @@
+<button (click)="sumarUno()">1+</button>
+<button (click)="restarUno()">1-</button>
+
+<p>Hay: {{contador}}</p>
+
+<p *ngIf="contador < 18">Hay menos de 18</p>
+<p *ngIf="contador < 0">Soy un numero negativo</p>
+<p *ngIf="contador == 18">Hay 18</p>
+<p *ngIf="contador > 18">Hay mas de 18</p>
+<p *ngIf="contador > 30">Hay mas de 30</p>

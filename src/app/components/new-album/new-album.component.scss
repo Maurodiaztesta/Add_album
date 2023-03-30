@@ -1,0 +1,45 @@
+.divNewAlbum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__input{
+        margin-top: 50px;
+        &--name{
+            margin: 20px;
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            border-style: none;
+            background-color: #FFF0C9;
+            border-bottom: 1px solid gray;
+        }
+        &--image{
+            margin: 20px;
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            border-style: none;
+            background-color: #FFF0C9;
+            border-bottom: 1px solid gray;
+        }
+        &--group{
+            margin: 20px;
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            border-style: none;
+            background-color: #FFF0C9;
+            border-bottom: 1px solid gray;
+            
+        }
+
+    }
+    &__button{
+        margin-top: 50px;
+        background-color: #FFF0C9;
+        border: 2px solid black;
+        width: 300px;
+        height: 40px;
+    }
+}
